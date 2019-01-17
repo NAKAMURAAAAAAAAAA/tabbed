@@ -10,6 +10,8 @@ import UIKit
 
 class cellTableViewCell: UITableViewCell {
     
+    @IBAction func DoneButton(_ sender: Any) {
+    }
     @IBOutlet weak var label: UILabel!
     
     override func awakeFromNib() {
